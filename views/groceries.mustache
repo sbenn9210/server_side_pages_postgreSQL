@@ -1,0 +1,14 @@
+<h1>Shopping List Manager</h1>
+
+<form class="" action="/groceries" method="post">
+  <input type="text" name="store" value="" placeholder="Store Name">
+  <input type="text" name="item" value="" placeholder="Item Name">
+  <input type="text" name="quantity" value="" placeholder="#">
+  <input type="submit" value="Submit">
+</form>
+
+{{#list}}
+  {{store}}
+  {{item}}
+  {{quantity}}
+{{/list}}
